@@ -1,0 +1,49 @@
+body{
+	text-align:center;
+	background-color:rgb(37,253,233);
+	background-size:cover;
+}
+h1{
+	color:rgb(11,22,22);
+	text-decoration:underline;
+	font-size:40px;
+	font-style:italic;
+	text-transform:uppercase;
+	word-spacing:4px;
+	text-shadow:1px 1px black;
+}
+
+ul{
+	text-align:left; /*alligner le menu à droite*/
+}
+.menu{
+	position:fixed;
+}
+.li:hover{
+	color: yellow;
+}
+.mg{
+	width:300px;
+	height:300px;
+	float:right;
+	margin:100px 50px -50px 20px;
+	cursor:pointer;
+}
+.mg0{
+	width:300px;
+	height:300px;
+	float:right;
+	margin:100px 200px -50px 20px;
+	cursor:pointer;
+}
+.btn-retour{
+	margin:800px -800px 75px 300px;
+}
+.géographie a span { 
+display:none; 
+} 
+							/*faire apparaitre l'image au survole d'un texte*/
+.géographie a:hover span { 
+display:block; 
+margin:0 0 0 0: 
+} 

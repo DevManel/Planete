@@ -1,0 +1,53 @@
+body{
+	text-align:center;
+	background-color:rgb(37,253,233);
+	background-size:cover;
+}
+h1{
+	color:rgb(11,22,22);
+	text-decoration:underline;
+	font-size:40px;
+	font-style:italic;
+	text-transform:uppercase;
+	word-spacing:4px;
+	text-shadow:1px 1px black;
+}
+ul{
+	text-align:left; /*alligner le menu à droite*/
+}
+
+.menu{
+	position:none;
+}
+.li:hover{
+	color: red;
+}
+
+.amerique a span { 
+display:none; 
+} 
+
+.amerique a:hover span { 
+display:block; 
+margin:0 0 0 0: 
+}
+
+.bn{
+	width:200px;
+	height:200px;
+}
+.btn-retour{
+	float:center;
+	
+}
+.p{
+	width:198px;
+	height:198px;
+	float:center;
+	margin:20px 5px 80px 85px;
+	cursor:pointer;
+}
+
+.carte{
+	text-align:left;
+}

@@ -1,0 +1,59 @@
+<html>
+		<head>
+			<meta charset="utf-8"/>
+			<title>Pays et Drapeaux</title>
+			<link rel="stylesheet" href="paysdrapeaux.css"/>
+			<script>
+			
+				function Ccouleur(){
+					if(couleur==0){
+						pays.src='../image/pays et drapeaux du monde.jpg';
+						couleur=1;
+					}
+					else{
+						pays.src='../image/grande-carte-du-monde-vierge.jpg';
+						couleur=0;
+					}
+				}
+			<!--changer l'image-->
+			</script>
+		
+		</head>
+		<body onload="couleur=0">
+			<header>
+				<h1>Les Pays et Les Drapeaux</h1>
+			</header>
+			<nav class="menu">
+				<ul>
+					<li class="li">
+						<a href="accueil.html">Accueil</a> <!--menu de navigation-->
+					</li>
+					<li class="li">
+						<a href="continents.html">Continents</a>
+					</li>
+					<li class="li">
+						<a href="pays et drapeaux.html">Pays et Drapeaux</a>
+					</li>
+					<li class="li">
+						<a href="quiz.html">Quiz</a>
+					</li>
+				</ul>
+			</nav>
+			<img src="../image/grande-carte-du-monde-vierge.jpg" name="pays"/>
+			<br/>
+			<input type="button" value="changer" onClick="Ccouleur()" />
+			<div class="géographie">
+				<p><a href="">?<span><img src="../image/asiatique.jpg" alt="image" title="cliquez sur un des continents en bas pour découvrir ses pays"/></span></a></p>
+			</div> 
+			<a href="paysafrique.html"><img src="../image/afric.gif" class="mg"name="Afrique" alt="Les pays de l'afrique" title="Cliquez ici pour découvrir les pays du continent Africain"/></a>
+			<a href="paysameriques.html"><img src="../image/les deux amériques.jpg" class="mg"name="amérique" alt="Les pays de l'Amérique" title="Découvrez les pays du continents Américain"/></a>
+			<a href="paysoceanie.html"><img src="../image/océanie.jpg" class="mg"name="amérique" alt="Les pays de l'Australie" title="Découvrez les pays de l'australie"/></a>
+			<a href="payseurope.html"><img src="../image/europe.png" class="mg0" name="europe" alt="Les pays de l'europe" title="L'Europe et ses pays"/></a>
+			<a href="paysasie.html"><img src="../image/Asie.jpg" class="mg0" name="asie" alt="Les pays de l'Asie" title="Découvrez les pays du continent Asiatique"/></a>
+			<!--envois à une autre page-->
+			<FORM ACTION="accueil.html">
+				<INPUT TYPE="SUBMIT" VALUE="Retour" class="btn-retour"/>
+			</FORM>
+
+		</body>
+	</html>

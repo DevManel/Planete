@@ -1,0 +1,44 @@
+body{
+	text-align:center;
+	background-color:rgb(37,253,233); /*centrer les éléments et un fond de page bleu*/
+}
+fieldset{
+	background-color:white;
+	border:2px black solid;
+	border-radius:5px;
+	box-shadow:5px 5px 0px black; /*encadrer le titre avec des ombres*/
+}
+h1{
+	color:rgb(11,22,22);
+	text-decoration:underline;/*souligner le titre*/
+	font-size:40px;
+	font-style:italic;
+	text-transform:uppercase;/*Mettre les lettres en Majuscule*/
+	word-spacing:4px;
+	text-shadow:1px 1px black; /*donner une ombre*/
+}
+ul{
+	text-align:left; /*alligner le menu à droite*/
+}
+.image{
+	width:900px;
+	height:500px;
+	margin:10px 190px 20px 190px;
+	box-shadow:5px 5px 5px black;
+}
+.menu{
+	position:fixed;
+}
+.li:hover{
+	color: red;
+}
+
+.f1{
+	float:left;
+	margin:5px 0px 0px 90px;
+}
+.mg{
+	width:300px;
+	height:170px;
+	border:2px solid black;
+}
